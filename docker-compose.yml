@@ -1,7 +1,7 @@
 version: '3'
 services:
   haskell:
-    image: haskell:9
+    build: sorce
     container_name: 'haskell'
     tty: true
     volumes:
