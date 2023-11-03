@@ -1,4 +1,4 @@
-# Leetcode using  haskell
+# Haskell Sample Code
 
 ## How to setup
 
@@ -11,6 +11,6 @@ docker-compose up -d
 
 ```
 docker exec -ti haskell /bin/bash
-cd sample2
+cd [folderName]
 runghc test.hs
 ```
