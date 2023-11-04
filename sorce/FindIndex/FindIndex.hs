@@ -1,4 +1,4 @@
-module Code where
+module FindIndex where
     findIndex :: [Int] -> Int -> Int
     findIndex xs number = findIndex' xs number 0
     findIndex' :: [Int] -> Int -> Int -> Int

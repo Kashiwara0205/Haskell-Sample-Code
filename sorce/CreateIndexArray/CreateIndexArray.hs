@@ -1,4 +1,4 @@
-module Code where
+module CreateIndexArray where
     createIndexArray :: Int -> [Int]
     createIndexArray i = createIndexArray' i []
 

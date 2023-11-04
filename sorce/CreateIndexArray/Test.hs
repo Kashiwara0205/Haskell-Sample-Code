@@ -1,5 +1,5 @@
 import Test.HUnit
-import Code
+import CreateIndexArray
 
 testCreateIndexArray :: Test
 testCreateIndexArray = "数値に応じてindexが入力された配列を返却する" ~: test

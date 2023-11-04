@@ -1,4 +1,4 @@
-module Code where
+module FindNumber where
     findNumber :: [Int] -> Int -> Bool
     findNumber [] _ = False
     findNumber (x:xs) number
