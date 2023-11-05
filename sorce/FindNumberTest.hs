@@ -1,5 +1,5 @@
 import Test.HUnit
-import Code
+import FindNumber
 
 testFindNumber :: Test 
 testFindNumber = "配列内に存在していたらTrueしていなければFalse" ~: test
