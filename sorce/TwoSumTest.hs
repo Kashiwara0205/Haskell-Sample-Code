@@ -2,10 +2,10 @@ import Test.HUnit
 import TwoSum
 
 testTwoSum :: Test
-testTwoSum = "x" ~: test
-    [ "2の合計値を算出するindexはx:0, y:0" ~: twoSum [1, 2, 3, 4, 5] [1] 2 ~?= [0, 0],
-      "11の合計値を算出するindexはx:1, y:1" ~: twoSum [1, 2, 3, 4, 5] [1, 9] 11 ~?= [1, 1],
-      "合計値が存在しない場合は空になる" ~: twoSum [1, 2, 3, 4, 5] [1, 9] 111 ~?= []
+testTwoSum = "twoSumを検証する" ~: test
+    [ "3の合計値を算出するindexは [0, 1]" ~: twoSum [2,7,11,15]  9 ~?= [0, 1],
+      "6の合計値を算出するindexは [1, 2]" ~: twoSum [3,2,4]  6 ~?= [1, 2],
+      "6の合計値を算出するindexは [0, 1]" ~: twoSum [3,3] 6 ~?= [0, 1]
     ]
 
 main :: IO ()
