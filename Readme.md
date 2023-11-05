@@ -11,6 +11,5 @@ docker-compose up -d
 
 ```
 docker exec -ti haskell /bin/bash
-cd [folderName]
-runghc Test.hs
+runghc [test-filename]
 ```
