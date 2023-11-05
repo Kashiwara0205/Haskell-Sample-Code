@@ -10,6 +10,6 @@ docker-compose up -d
 ## How to run test
 
 ```
-docker exec -ti haskell /bin/bash
+make in
 runghc [test-filename]
 ```
